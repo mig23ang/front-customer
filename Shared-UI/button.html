@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-MenuInicial</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./button.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Asesores Arrieros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Asesores Pyme
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Novedades</a></li>
+                  <li><a class="dropdown-item" href="#">Registro</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Listado </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header><br><br>
+    <br>
+    <div style="display: flex; width: 100%;">
+      <div class="cont-busqueda">
+        <form>
+            <div class="d-flex">
+                <div class="col-6" style="display: flex;">
+                <div class="mb-3">
+                    <div class="form-check">
+                    <input
+                        class="input input-sm form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1" style="display: flex;">
+                        Tipo de Documento
+                
+                        <select
+                            class="form-select"
+                            aria-label="Default select example"
+                        >
+                            <option selected>Seleccione tipo de documento</option>
+                            <option value="1">CC - Cédula de Ciudadanía</option>
+                            <option value="2">CE - Cédula de Extranjería</option>
+                            <option value="3">
+                            NIT - Número de Identificación Tributario
+                            </option>
+                            <option value="4">PA - Pasaporte</option>
+                            <option value="4">RC - Registro Civil</option>
+                        </select>
+                
+                    </label>
+                    </div>
+                </div>
+                </div>
+                <div class="col-6" style="display: flex;">
+                <div class="mb-3">
+                    <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm"
+                        >Número de documento</span
+                    >
+                    <input
+                        type="text"
+                        class="form-control"
+                        aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm"
+                    />
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="col-6" style="display: flex;">
+                  <div class="mb-3">
+                    <div class="input-group input-group-sm">
+                      <div class="form-check" >
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1" style="display: flex;">
+                          Nombres y Apellidos / Razón Social    
+                        </label>
+                      
+                      <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-sm"
+                      />
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6" style="display: flex;">
+                  <div class="mb-3">
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-12" style="text-align:right;">
+              <div class="mb-3">
+                <button type="submit" class="btn btn-primario">Consultar</button>
+                <button type="submit" class="btn btn-secundario">Limpiar</button>
+              </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
